@@ -14,7 +14,7 @@ Have Android Studio of version 2.2 and up.
 
 ## Screenshots
 1. App Start Screen. </br>
-![Demo1](/docs/start_screen.jpg)
+![Demo1](/docs/start_screen.jpg =200x600)
 
 2. Search results for destination. </br>
 ![Demo2](/docs/search_results.jpg)
