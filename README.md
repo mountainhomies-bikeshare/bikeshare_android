@@ -1,10 +1,10 @@
-#BikeShare Android
+# BikeShare Android
 
-##Prerequisite
+## Prerequisite
 <br/>
 Have Android Studio of version 2.2 and up.
 
-##Usage
+## Usage
 <br/>
 1. Clone this repository at https://github.com/mountainhomies-bikeshare/bikeshare_android.git
 <br/><br/>
@@ -12,9 +12,9 @@ Have Android Studio of version 2.2 and up.
 <br/><br/>
 3. Run the project on your Android phone.
 
-##Screenshots
+## Screenshots
 1. App Start Screen. </br>
-![Demo](/docs/start_screen.jpg = 200x600)
+![Demo](/docs/start_screen.jpg)
 <br/>
 2. Search results for destination. </br>
 ![Demo](/docs/search_results.jpg)
