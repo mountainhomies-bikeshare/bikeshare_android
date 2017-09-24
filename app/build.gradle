@@ -1,0 +1,49 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+    defaultConfig {
+        applicationId "com.example.currentplacedetailsonmap"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        resValue "string", "google_maps_key", (project.findProperty("GOOGLE_MAPS_API_KEY") ?: "")
+//        multiDexEnabled true
+    }
+    buildTypes {
+        debug {
+            debuggable true
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    useLibrary 'org.apache.http.legacy'
+}
+
+//repositories {
+//    maven {
+//        url "http://hypertrack-android-sdk.s3-website-us-west-2.amazonaws.com/"
+//    }
+//}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.google.android.gms:play-services-maps:11.4.0'
+    compile 'com.google.android.gms:play-services-location:11.4.0'
+    compile 'com.google.android.gms:play-services-places:11.4.0'
+    testCompile 'junit:junit:4.12'
+
+//    compile("com.hypertrack:android:0.4.11:release@aar") {
+//        transitive = false
+//    }
+}
