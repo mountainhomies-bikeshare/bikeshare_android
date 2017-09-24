@@ -1,5 +1,4 @@
-BikeShare Android
-=====================================================
+#BikeShare Android
 
 ##Prerequisite
 <br/>
@@ -15,7 +14,7 @@ Have Android Studio of version 2.2 and up.
 
 ##Screenshots
 1. App Start Screen. </br>
-![Demo](/docs/start_screen.jpg)
+![Demo](/docs/start_screen.jpg = 200x600)
 <br/>
 2. Search results for destination. </br>
 ![Demo](/docs/search_results.jpg)
