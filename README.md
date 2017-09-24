@@ -15,15 +15,15 @@ Have Android Studio of version 2.2 and up.
 ## Screenshots
 1. App Start Screen. </br>
 ![Demo1](/docs/start_screen.jpg)
-<br/>
+
 2. Search results for destination. </br>
 ![Demo2](/docs/search_results.jpg)
-<br/>
+
 3. Recommended bikes based on our algorithm. </br>
 ![Demo3](/docs/show_bikes.jpg)
-<br/>
+
 4. Bike selection on details shown. </br>
 ![Demo4](/docs/bike_select.jpg)
-<br/>
+
 5. Navigation to the bike. <br/>
 ![Demo5](/docs/navigation.jpg)
