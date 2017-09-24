@@ -13,17 +13,17 @@ Have Android Studio of version 2.2 and up.
 3. Run the project on your Android phone.
 
 ## Screenshots
-1. App Start Screen. </br>
+1. App Start Screen. </br></br>
 ![Demo1](/docs/start_screen.jpg)
 
-2. Search results for destination. </br>
+2. Search results for destination. </br></br>
 ![Demo2](/docs/search_results.jpg)
 
-3. Recommended bikes based on our algorithm. </br>
+3. Recommended bikes based on our algorithm. </br></br>
 ![Demo3](/docs/show_bikes.jpg)
 
-4. Bike selection on details shown. </br>
+4. Bike selection on details shown. </br></br>
 ![Demo4](/docs/bike_select.jpg)
 
-5. Navigation to the bike. <br/>
+5. Navigation to the bike. <br/></br>
 ![Demo5](/docs/navigation.jpg)
