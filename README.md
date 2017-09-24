@@ -23,7 +23,7 @@ Have Android Studio of version 2.2 and up.
 ![Demo3](/docs/show_bikes.jpg)
 
 4. Bike selection on details shown. </br>
-![Demo4](/docs/resizeimage.jpg)
+![Demo4](/docs/bike_select.jpg)
 
 5. Navigation to the bike. <br/>
 ![Demo5](/docs/navigation.jpg)
